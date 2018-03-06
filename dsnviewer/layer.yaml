@@ -1,0 +1,13 @@
+"options":
+  "basic":
+    "use_venv": !!bool "false"
+    "packages": []
+    "include_system_packages": !!bool "false"
+  "dsnviewer": {}
+"includes":
+- "layer:basic"
+- "interface:mysql"
+"ignore":
+  "dsnviewer": [".*.swp"]
+"repo": "https://github.com/mitechie/dsnviewer"
+"is": "dsnviewer"
