@@ -42,7 +42,7 @@ def setup_mysql(mysql):
     env.log('{} written'.format(HTMLFILE))
     ipaddr = env.unit_get('public-address')
     env.log(ipaddr)
-    env.status_set('ready', 'http://{}/index.html'.format(ipaddr))
+    env.status_set('active', 'http://{}/index.html'.format(ipaddr))
 
 
 @when_not('db.available')
