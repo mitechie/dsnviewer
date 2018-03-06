@@ -11,7 +11,7 @@ from charmhelpers.core import hookenv as env
 
 
 HTMLFILE = '/var/www/html/index.html'
-HTMLTPL = "<html><head></head><body><h2>{}</h2></body></html>"
+HTMLTPL = "<html><head></head><body><h2>Connection details<br/>{}</h2></body></html>"
 
 
 @when_not('dsnviewer.installed')
